@@ -1,7 +1,6 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
-     if array[index].class == String
-       element.is_a?(String)
+     select {|v| v.class == String}
 end
   
 end
